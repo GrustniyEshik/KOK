@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<HTML>
+
+<HEAD>
+<meta charset="UTF-8" />
+<title>Кто я</title> <!--Название вкладки-->
+</HEAD>
+
+<BODY>
+<table cellspacing="5"><!--table - таблица  cellspacing - настройка пространства между пунктами таблицы-->
+ <tr>
+  <td>
+   <img src="Самурай.png" width="200" alt="тут моя фотка" /><!--alt - типо когда фото не загрузится на его месте будет надпись-->
+  </td>
+  <td>
+   <h1>Фамилия: Малахов<br/> Имя: Сергей<br/>Отчество: Александрович</h1>
+   <p><em><strong>Номер телефона: 8(909)-965-72-03</strong></em></p>
+  </td>
+ </tr>
+</table>
+
+    <hr size="10" noshade width="100%" color="black"/><!--hr - линия  size - толщина width - длина в % или в px color - цвет-->
+
+<h2>Мои социальные сети</h2>
+
+<ul><!--ul - список пункты которго обозначены точками-->
+<li><a href="https://vk.com/cashmagish" target="_blank">VK</a></li><!--Ссылка-->
+</ul>
+
+    <hr>
+
+<h2>Мои хобби</h2>
+
+<ol type="I"><!--ol - список пункты которого обозначены цифрами  type="I" - нумерация римскими цифрами-->
+<li>Пригромирование</li>
+<li>Путешествия</li>
+</ol>
+
+    <hr>
+
+<h2>Опыт работы</h2>
+<table>
+<thead>
+ <tr>
+    <th>Компания</th>
+    <th>Должность</th>
+    <th>Срок</th>
+ </tr>
+</thead>
+<tbody>
+ <tr>
+    <td>Никакая</td>
+    <td>Никакая</td>
+    <td>Нисколько</td>
+ </tr>
+</tbody>
+</table>
+
+    <hr>
+
+<h2>Связаться со мной</h2>
+
+<form action="/">
+  <label for="name">Ваше имя:</label><!--lable - текст перед строкой ввода for - перенаправление на id-->
+  <input type="text" id="name" placeholder="Введите ваше имя..."><br><!--input - строка ввода id - присвоение id placeholder - Текст видный пользователю до начала ввода текста-->
+
+  <label for="email">Ваш Email:</label>
+  <input type="email" id="email" placeholder="Введите email..."><br>
+
+  <label for="text">Вашe сообщение:</label><br>
+  <textarea id="text" rows="5" cols="50"></textarea><br><!--textarea - поле для текста rows и cols - размеры (Строчки и колонки)-->
+
+    <input type="submit" value="Написать"><!--type="submit" - кнопка value - надпись на кнопке-->
+    </form>
+
+
+</BODY>
+</HTML>
